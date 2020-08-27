@@ -116,6 +116,7 @@ int main (int arc, const char * argv[]){
   printf("\n");
 
   free(vector);
+  free(vectorf);
   for (; aux2 < final; ++aux2)
   {
     free(aux2->title);
